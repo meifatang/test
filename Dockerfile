@@ -8,6 +8,7 @@ RUN apk update && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh
+ADD /etc/* /tmp/
 RUN chmod +x /start.sh
 
 CMD /start.sh
