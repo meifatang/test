@@ -8,7 +8,6 @@ cat $CONFIGXRAY | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$Paramet
 
 # start
 /xray -config /xray.json &
-
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
 
 # clean
