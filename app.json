@@ -13,11 +13,11 @@
         },
         "CONFIGCADDY": {
             "description": "Caddy",
-            "value": "/etc/Caddyfile"
+            "value": "/tmp/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "Xray",
-            "value": "/etc/xray.json"
+            "value": "/tmp/xray.json"
         }
     },
     "website": "https://github.com/meifatang/",
